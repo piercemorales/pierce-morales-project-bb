@@ -1,3 +1,5 @@
+//mvp
+
 // A mock (nike) e-commerce site where users are able to look through products and add items to their "cart"
 // user is able to view their cart and see items they have added
 //users have the option to remove items from cart (empty cart)

@@ -1,3 +1,69 @@
-h1 {
-  color:white;
+// Header Section
+// Nav Styling
+header {
+  background-image: url(../../assets/heroBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.primaryNav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 72px;
+}
+
+.upperNavList,
+.lowerNavList {
+  display: flex;
+}
+
+.upperNavList {
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+  a {
+    text-transform: none;
+    color: $secondaryText;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    padding: 11px 15px;
+    &:hover{
+          color: $textColor;
+          border-bottom: 2px solid black;
+        }
+  }
+}
+
+.lowerNav,
+.upperNav {
+  border-bottom: 1px solid $borderColor;
+  background-color: #fff;
+
+}
+.lowerNav {
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  .logoLink {
+    padding: 20px 30px;
+  }
+  img {
+    height: 30px;
+  }
+  
+}
+
+.lowerNavList {
+  justify-content: space-between;
+      li a {
+        padding: 25px 30px;
+        &:hover{
+          border-bottom: 2px solid black;
+        }
+      }
+  
 }
