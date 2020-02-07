@@ -44,5 +44,23 @@ a {
   text-transform: uppercase;
   color: $textColor;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+button {
+  align-self: flex-start;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border:none;
+  font-size: 1.5rem;
+  font-weight: 450;
+  transition: $transition;
+    &:hover{
+      background-color:rgba(255, 255, 255, 0.6);
+    }
+}
+
+.whiteBtn {
+  background-color: $mainColor;
+
 }
