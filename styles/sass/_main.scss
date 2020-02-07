@@ -104,3 +104,11 @@ header {
 
 // Header Section Ends
 // Main Content Begins
+.mainContent {
+  height: 100vh;
+  display: flex;
+}
+.banner {
+  margin: 0 auto;
+  background-image: url(../../assets/banner.jpg);
+}
