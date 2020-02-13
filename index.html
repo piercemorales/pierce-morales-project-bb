@@ -10,7 +10,7 @@
 </head>
 <body>
   
-  <header>
+  <header id="header">
   <!-- Nav Menu -->
   <nav class="primaryNav">
       <section class="upperNav">
@@ -20,7 +20,7 @@
         </ul>
       </section>
       <section class="lowerNav">
-        <a href="" class="logoLink"><img class="logo" src="assets/icon.png" alt=""></a>
+        <a href="#header" class="logoLink"><img class="logo" src="assets/icon.png" alt=""></a>
         <ul class="lowerNavList">
           <li><a class="lowerNavLink" href="#">New Releases</a></li>
           <li><a class="lowerNavLink" href="#">Shop</a></li>
@@ -38,15 +38,24 @@
     <div class="headerText">
       <div class="headerTextContainer">
         <h1>Be Legendary</h1>
-        <button class="whiteBtn">Shop</button>
+        <a class="whiteBtn" href="#">Shop</a>
       </div>
     </div>
   </header>
-    <section class="mainContent">
+  <!-- Header Ends -->
+  <!-- Main Content Begins -->
+    <section id="main" class="mainContent">
       <div class="wrapper">
-        <div class="banner">
-          <p>content</p>    
-      </div>
+        <div class="cardContainer">
+          <div class="yogaCard">
+            <h3>Nike Yoga Collection</h3>
+            <a class="whiteBtn" href="#">Shop</a>
+          </div>
+          <div class="leggingsCard">
+            <h3>Dynamic Duo: Bras and Leggings</h3>
+            <a class="blackBtn" href="#">Shop</a>
+          </div>
+        </div>
     </div>
   </section>
   <script src="scripts/scripts.js"></script>

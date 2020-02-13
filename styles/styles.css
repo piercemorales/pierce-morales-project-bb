@@ -227,7 +227,8 @@ a {
   font-weight: 500;
 }
 
-button {
+.whiteBtn,
+.blackBtn {
   -ms-flex-item-align: start;
       align-self: flex-start;
   padding: 10px 30px;
@@ -239,16 +240,28 @@ button {
   transition: 0.2s ease-in-out;
 }
 
-button:hover {
+.whiteBtn:hover,
+.blackBtn:hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 .wrapper {
+  margin: 0 auto;
+  width: 80%;
   max-width: 90%;
 }
 
 .whiteBtn {
   background-color: #fff;
+}
+
+.blackBtn {
+  color: #fff;
+  background-color: #000;
+}
+
+.blackBtn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -398,9 +411,4 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.banner {
-  margin: 0 auto;
-  background-image: url(../../assets/banner.jpg);
 }
