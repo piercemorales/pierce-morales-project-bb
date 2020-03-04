@@ -340,6 +340,7 @@ header {
 
 .lowerNav img {
   height: 30px;
+  max-width: 63px;
 }
 
 .lowerNavList {
@@ -408,6 +409,12 @@ header {
 
 .mainContent {
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cardContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
